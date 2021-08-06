@@ -1,27 +1,58 @@
 textarea {
-    min-height: 400px;
+	min-height: 400px;
 }
-#emails-view > div{
-    border: green solid 2px;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
+#emails-view > div {
+	border: green solid 2px;
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-span{
-    margin: 10px;
+span {
+	margin: 5px;
 }
-.archive{
-    margin-left:auto;
+.archive {
+	margin-left: auto;
 }
-.archive-button{
-    padding: 5px;
-    background-color: white;
-    color: green;
-    outline: none;
-    border: green solid 1px;
-    border-radius: 5px;
+.archive-button {
+	padding: 5px;
+	background-color: white;
+	color: green;
+	outline: none;
+	border: green solid 1px;
+	border-radius: 5px;
 }
-.read-email{
-    background-color: gray;
+.read-email {
+	background-color: rgba(128, 128, 128, 0.685);
+}
+
+.header {
+	display: inline-block;
+	margin: 2px;
+}
+
+.emailSpan {
+	width: 80%;
+	overflow-y: hidden;
+}
+
+h6 {
+	display: inline-block;
+}
+.replyDiv{
+	text-align: center;
+}
+.replyButton{
+	width: 100%;
+	color: green;
+	background-color: white;
+	border:1px solid green;
+	border-radius: 3px;
+	outline: none;
+}
+.replyButton:hover{
+	color: white;
+	background-color: green;
+	cursor: pointer;
 }
